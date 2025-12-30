@@ -15,27 +15,23 @@ $$\
 
 where M $\subset$ $\mathbb{R}^2\$ is the **feasible set** (defined by constraints).
 
-At a feasible point \(x\), the **tangent cone** \(T(M,x)\) is the set of directions \(d\) such that, for very small step sizes \(t > 0\), one can move from \(x\) to \(x + t d\) and remain in \(M\). These are the **locally feasible directions** and they appear in first‑order optimality conditions.
+At a feasible point **x**, the **tangent cone** $\T(M,x)\$ is the set of directions **d** such that, for very small step $\t > 0\$, we can move from x to $\x + t d\$ and remain in **M**. These are the **locally feasible directions** and they appear in first‑order optimality conditions.
 
-**First‑order optimality condition:** At a local minimum \(x^\star\), every feasible direction \(d\) has a non‑negative directional derivative,
-\[
+**First‑order optimality condition:** At a local minimum $\(x^\star\)$, every feasible direction **d** has a non‑negative directional derivative:
+
+$$\
 Df(x^\star; d) \ge 0 \quad \text{for all feasible } d.
-\]
-This means there is no feasible direction in which an infinitesimally small step can decrease the objective.
+\$$
 
-For many simple sets, the tangent cone can be written explicitly and drawn geometrically.
-
----
 
 ## 2. Example problem in this repository
 
-The first example in the code corresponds to the problem
-\[
-\begin{aligned}
-\min_{x\in\mathbb{R}^2} \quad & f(x) = \tfrac12\|x\|^2 \\
+The example in the code represents the problem
+
+$$\
+\min_{x\in$\mathbb{R}^2$} & f(x) = \tfrac12\|x\|^2 \\
 \text{s.t.} \quad & x_2 \ge 0.
-\end{aligned}
-\]
+\$$
 
 - **Feasible set**
   \[
