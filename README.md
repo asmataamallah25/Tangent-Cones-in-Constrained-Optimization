@@ -28,7 +28,7 @@ Df(x^\star; d) \ge 0 \quad \text{for all feasible } d.
 
 The example in the code represents the problem
 $$
-\min_{x \in $\mathbb{R}^2}$ $\|x\|$ \quad \text{s.t. } x_2 \ge 0
+\min_{x \in \mathbb{R}^2} \|x\| \quad \text{s.t. } x_2 \ge 0
 $$
 
 *Note:* Here \(x\) is a vector in $mathbb{R}^2\$, so it has two components ($x = (x_1, x_2)$).
