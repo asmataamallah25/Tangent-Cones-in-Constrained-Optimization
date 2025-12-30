@@ -15,9 +15,9 @@ $$\
 
 where M $\subset$ $\mathbb{R}^2\$ is the **feasible set** (defined by constraints).
 
-At a feasible point **x**, the **tangent cone** $\T(M,x)\$ is the set of directions **d** such that, for very small step $\t > 0\$, we can move from x to $\x + t d\$ and remain in **M**. These are the **locally feasible directions** and they appear in first‑order optimality conditions.
+At a feasible point **x**, the **tangent cone** $T(M,x)$ is the set of directions **d** such that, for very small step $t > 0$, we can move from x to $x + t d$ and remain in **M**. These are the **locally feasible directions** and they appear in first‑order optimality conditions.
 
-**First‑order optimality condition:** At a local minimum $\(x^\star\)$, every feasible direction **d** has a non‑negative directional derivative:
+**First‑order optimality condition:** At a local minimum $x^\star$, every feasible direction **d** has a non‑negative directional derivative:
 
 $$\
 Df(x^\star; d) \ge 0 \quad \text{for all feasible } d.
@@ -28,10 +28,10 @@ Df(x^\star; d) \ge 0 \quad \text{for all feasible } d.
 
 The example in the code represents the problem
 
-$$\
-\min_{x\in$\mathbb{R}^2$} & f(x) = \tfrac12\|x\|^2 \\
-\text{s.t.} \quad & x_2 \ge 0.
-\$$
+$$
+\min_{x \in \mathbb{R}^2} f(x) = \tfrac12\|x\|^2 \quad \text{s.t. } x_2 \ge 0
+$$
+
 
 - **Feasible set**
   \[
