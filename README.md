@@ -29,7 +29,7 @@ Df(x^\star; d) \ge 0 \quad \text{for all feasible } d.
 The example in the code represents the problem
 
 $$
-\min_{x \in \mathbb{R}^2} f(x) = \tfrac12\|x\|^2 \quad \text{s.t. } x_2 \ge 0
+\min_{x \in \mathbb{R}^2} \|x\| \quad \text{s.t. } x_2 \ge 0
 $$
 
 
