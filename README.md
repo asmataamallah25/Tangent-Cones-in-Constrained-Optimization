@@ -13,7 +13,7 @@ $$\
 \min f(x) \quad \text{s.t. } x \in M,
 \$$
 
-where \M \subset \4mathbb{R}^2\$ is the **feasible set** (defined by constraints such as $\g_i(x) \le 0\)$.
+where \M \subset \$mathbb{R}^2\$ is the **feasible set** (defined by constraints).
 
 At a feasible point \(x\), the **tangent cone** \(T(M,x)\) is the set of directions \(d\) such that, for very small step sizes \(t > 0\), one can move from \(x\) to \(x + t d\) and remain in \(M\). These are the **locally feasible directions** and they appear in first‑order optimality conditions.
 
