@@ -1,7 +1,7 @@
 # Tangent Cones in Constrained Optimization
 
 In constrained optimization, the tangent cone at a feasible point describes the **feasible directions** in which you can move while still satisfying the constraints, at least locally.  
-This repository contains a Python script that visualizes tangent cones of feasible sets from constrained optimization problems in \(\mathbb{R}^2\). The goal is to see what “feasible directions” look like and how they relate to constraint geometry.
+This repository contains a Python script that visualizes tangent cones of feasible sets from constrained optimization problems in $\(\mathbb{R}^2\)$. The goal is to see what “feasible directions” look like and how they relate to constraint geometry.
 
 ---
 
