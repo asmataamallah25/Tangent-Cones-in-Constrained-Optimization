@@ -5,7 +5,7 @@ This repository contains a Python script that visualizes tangent cones of feasib
 
 ---
 
-## 1. Background: tangent cones in optimization
+## Background: tangent cones in optimization
 
 Consider a constrained problem
 
@@ -24,18 +24,18 @@ Df(x^\star; d) \ge 0 \quad \text{for all feasible } d.
 \$$
 
 
-## 2. Problem 1
+## Problem 1
 
 Problem 1 is the optimization task:
 $$
 \min_{x \in \mathbb{R}^2} \lVert x \rVert \quad \text{s.t. } x_2 \ge 0
 $$
 
-Note: Here $x$ is a vector in $\mathbb{R}^2$, so it has two components ($x = (x_1, x_2)$).
+Note: Here $x$ is a vector in $\mathbb{R}^2$, so it has two components x = (x_1, x_2).
 
 Feasible set $M = \{(u,v) \in \mathbb{R}^2 \mid v \ge 0\}$, i.e. the upper half-plane.
 
-Feasible point $x^\star = (0,0)$, which lies on the active constraint boundary ($x_2 = 0$).
+Feasible point $x^\star = (0,0)$, which lies on the constraint boundary ($x_2 = 0$).
 
 Tangent cone at $x^\star$:
 
